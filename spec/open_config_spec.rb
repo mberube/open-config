@@ -1,8 +1,8 @@
 require 'rspec'
-require 'open_config.rb'
+require 'open-config'
 
-describe OpenConfig do
-  let(:config) {OpenConfig.new}
+describe "OpenConfig" do
+  let(:config) {Open::Config::OpenConfig.new}
 
   it "raises if no block given to configure" do
     lambda {config.configure}.should raise_error 'No block given in configure method'

@@ -1,3 +1,5 @@
-task :spec do
-  system("rspec -Ilib spec")
-end
+require "bundler/gem_tasks"
+require 'rspec/core/rake_task'
+
+RSpec::Core::RakeTask.new('spec')
+
