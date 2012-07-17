@@ -1,3 +1,5 @@
+[![Build Status](https://secure.travis-ci.org/mberube/open-config.png)](http://travis-ci.org/mberube/open-config)
+
 Configuration class that allows values to reference other values.
 
 Examples:
